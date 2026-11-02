@@ -1,0 +1,2 @@
+# rogue-chess
+no
