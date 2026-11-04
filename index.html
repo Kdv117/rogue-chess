@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+<meta name="theme-color" content="#141a33">
+<title>Limp Longbow</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<canvas id="game"></canvas>
+<div id="hud">
+  <div class="left"><span id="stage">Stage 1</span><span id="coins">0 coins</span>
+    <div class="reloadwrap"><div id="reload"></div></div></div>
+  <button id="pausebtn" class="iconbtn" aria-label="Pause">II</button>
+</div>
+<div id="arrowbar"></div>
+<div id="rotate" hidden>Turn your phone sideways for a bigger view</div>
+<div id="overlay" hidden><div id="panel"></div></div>
+<script src="config.js"></script>
+<script src="game.js"></script>
+</body>
+</html>
